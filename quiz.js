@@ -250,3 +250,5 @@ function finalizar() {
     }
 
 }
+
+window.onload = iniciar;
