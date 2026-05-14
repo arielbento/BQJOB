@@ -178,6 +178,8 @@ function iniciar() {
         lista = perguntas_dificil;
     }
 
+    lista.sort(() => Math.random() - 0.5);
+
     mostrar();
 }
 
