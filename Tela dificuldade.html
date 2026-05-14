@@ -45,6 +45,7 @@
       cursor: pointer;
       transition: 0.3s;
       color: rgb(255, 255, 255);
+      text-decoration: none;
     }
 
     .btn:hover {
@@ -84,15 +85,16 @@
 </head>
 
 <body>
-
-  <button class="voltar">← Voltar</button>
-
+  <a href="inicio.html">
+    <button class="voltar">← Voltar</button>
+  </a>
   <div class="container">
     <h1>Escolha a dificuldade</h1>
 
-    <button class="btn dificil">Difícil</button>
-    <button class="btn medio">Médio</button>
-    <button class="btn facil">Fácil</button>
+    <a href="facil.html"> <button class="btn facil">Fácil</button> </a> 
+    <a href="medio.html"> <button class="btn medio">Médio</button> </a> 
+    <a href="dificil.html"><button class="btn dificil">Difícil</button> </a> 
+
   </div>
 
 </body>
