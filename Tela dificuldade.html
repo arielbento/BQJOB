@@ -21,6 +21,7 @@
     }
 
     .container {
+      position: relative; /* 🔥 IMPORTANTE */
       text-align: center;
       background: rgba(138, 134, 134, 0.2);
       backdrop-filter: blur(10px);
@@ -45,7 +46,6 @@
       cursor: pointer;
       transition: 0.3s;
       color: rgb(255, 255, 255);
-      text-decoration: none;
     }
 
     .btn:hover {
@@ -54,15 +54,15 @@
     }
 
     .dificil {
-      background-color: #e74c3c; /* vermelho */
+      background-color: #e74c3c;
     }
 
     .medio {
-      background-color: #16b3cf; /* verde */
+      background-color: #16b3cf;
     }
 
     .facil {
-      background-color: #3498db; /* azul */
+      background-color: #3498db;
     }
 
     .voltar {
@@ -81,19 +81,30 @@
     .voltar:hover {
       background-color: #000000;
     }
+
+    /* 🔥 PERSONAGEM */
+    .personagem {
+      position: absolute;
+      bottom: -10px; /* ajusta altura */
+      left: 320px;   /* faz ele "sair" do card igual na imagem */
+      width: 180px;
+      pointer-events: none;
+    }
+
   </style>
 </head>
 
 <body>
-  <a href="index.html">
-    <button class="voltar">← Voltar</button>
-  </a>
+
+  <button class="voltar">← Voltar</button>
+
   <div class="container">
     <h1>Escolha a dificuldade</h1>
 
-    <a href="facil.html"> <button class="btn facil">Fácil</button> </a> 
-    <a href="medio.html"> <button class="btn medio">Médio</button> </a> 
-    <a href="dificil.html"><button class="btn dificil">Difícil</button> </a> 
+    <button class="btn dificil">Difícil</button>
+    <button class="btn medio">Médio</button>
+    <button class="btn facil">Fácil</button>
+    <img src="Pensando.png" class="personagem" alt="Pinochio">
 
   </div>
 
