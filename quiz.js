@@ -1,7 +1,7 @@
 const perguntas_facil = [
 
     {
-        pergunta: "Qual é o nome da nossa cidade?",
+        pergunta: "QUAL É O NOME DA NOSSA CIDADE ?",
         opcoes: [
             { texto: "BLUMENAU", imagem: "imagens_perguntas/Blumenau" },
             { texto: "BRUSQUE", imagem: "imagem_pergunta/BRUSQUE.png" },
@@ -11,7 +11,7 @@ const perguntas_facil = [
     },
 
     {
-        pergunta: "Qual animal é o símbolo da Fenarreco?",
+        pergunta: "QUAL ANIMAL É O SÍMBOLO DA FENARRECO ?",
         opcoes: [
             { texto: "CACHORRO", imagem: "imagem_pergunta/cachorro.png" },
             { texto: "GATO", imagem: "imagem_pergunta/gato.jpg.jpeg" },
@@ -21,7 +21,7 @@ const perguntas_facil = [
     },
 
     {
-        pergunta: "Quais são as cores da bandeira de Brusque?",
+        pergunta: "QUAIS SÃO AS CORES DA BANDEIRA DE BRUSQUE ?",
         opcoes: [
             { texto: "AZUL, BRANCO E VERMELHO", imagem: "imagem_pergunta/vermelho azul branco.png" },
             { texto: "AMARELO, BRANCO E VERDE", imagem: "" },
@@ -31,7 +31,7 @@ const perguntas_facil = [
     },
 
     {
-        pergunta: "Onde podemos ver muitos animais?",
+        pergunta: "ONDE PODEMOS VER MUITOS ANIMAIS ?",
         opcoes: [
             { texto: "SHOPPING", imagem: "imagem_pergunta/shopping.jpg.jpeg" },
             { texto: "ZOOBOTÂNICO", imagem: "imagem_pergunta/zoo.jpg.jpeg" },
@@ -41,7 +41,7 @@ const perguntas_facil = [
     },
 
     {
-        pergunta: "Onde vemos esculturas de pedra?",
+        pergunta: "ONDE VEMOS ESCULTURAS DE PEDRA ?",
         opcoes: [
             { texto: "PARQUE DAS ESCULTURAS", imagem: "imagem_pergunta/Parque das Esculturas.jpg" },
             { texto: "CINEMA", imagem: "imagem_pergunta/cinema.avif" },
