@@ -4,100 +4,111 @@
 <head>
   <meta charset="UTF-8">
   <title>Seleção de Dificuldade</title>
-
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Arial, sans-serif;
+      font-family: 'Nunito', "Comic Sans MS", sans-serif;
+      text-decoration: none;
     }
 
     body {
       height: 100vh;
-      background: url("assets/FundoTrue.png") no-repeat center center/cover;
+      background: url("assets/FundoTrue.png") center/cover;
       display: flex;
       justify-content: center;
       align-items: center;
-
       overflow: hidden;
       position: relative;
     }
 
     .container {
-      position: relative;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(8px);
+      padding: 50px 60px;
+      border-radius: 35px;
+      border: 6px solid #ffd54f;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
       text-align: center;
-      background: rgba(138, 134, 134, 0.2);
-      backdrop-filter: blur(10px);
-      padding: 40px;
-      border-radius: 20px;
-
       z-index: 10;
+      position: relative;
     }
 
     h1 {
+      color: #49b300;
+      font-size: 42px;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-shadow: 3px 3px white;
       margin-bottom: 30px;
-      color: #333;
     }
 
     .btn {
       display: block;
-      width: 200px;
-      padding: 15px;
-      margin: 10px auto;
+      width: 260px;
+      padding: 18px;
+      margin: 15px auto;
+      border-radius: 25px;
       border: none;
-      border-radius: 15px;
-      font-size: 18px;
-      font-weight: bold;
+      color: white;
+      font-size: 26px;
+      font-weight: 900;
+      text-transform: uppercase;
       cursor: pointer;
-      transition: 0.3s;
-      color: rgb(255, 255, 255);
+      transition: 0.1s;
     }
 
-    .btn:hover {
-      transform: scale(1.05);
-      opacity: 0.9;
-    }
-
-    .dificil {
-      background-color: #e74c3c;
-    }
-
-    .medio {
-      background-color: #16b3cf;
+    .btn:active {
+      transform: translateY(6px);
+      box-shadow: none !important;
     }
 
     .facil {
-      background-color: #3498db;
+      background: #4CAF50;
+      box-shadow: 0 8px 0 #388E3C;
+    }
+
+    .medio {
+      background: #FF9800;
+      box-shadow: 0 8px 0 #F57C00;
+    }
+
+    .dificil {
+      background: #F44336;
+      box-shadow: 0 8px 0 #D32F2F;
     }
 
     .voltar {
       position: absolute;
-      top: 20px;
-      left: 20px;
-      padding: 10px 20px;
-      border-radius: 12px;
+      top: 25px;
+      left: 25px;
+      padding: 12px 25px;
+      border-radius: 20px;
       border: none;
-      background-color: #555;
-      color: white;
+      background: white;
+      color: #555;
+      font-size: 18px;
+      font-weight: bold;
+      box-shadow: 0 6px 0 #ccc;
       cursor: pointer;
-      transition: 0.3s;
-
+      transition: 0.1s;
       z-index: 20;
     }
 
-    .voltar:hover {
-      background-color: #000000;
+    .voltar:active {
+      transform: translateY(4px);
+      box-shadow: none;
     }
 
     .personagem {
       position: absolute;
-      bottom: -10px;
-      left: 320px;
-      width: 180px;
+      bottom: -20px;
+      right: -100px;
+      width: 200px;
       pointer-events: none;
+      filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.3));
     }
-
 
     .parallax {
       position: absolute;
@@ -111,8 +122,15 @@
       z-index: 2;
     }
 
+    .balao {
+      width: 140px;
+      top: 90px;
+      left: -20%;
+      z-index: 3;
+      animation: balaoLoop 70s linear infinite;
+    }
+
     .nuvem {
-      position: absolute;
       width: 220px;
       opacity: 0.95;
       z-index: 3;
@@ -150,37 +168,19 @@
       animation-delay: -26s;
     }
 
-    .balao {
-      position: absolute;
-      width: 140px;
-      top: 90px;
-      z-index: 3;
-      left: -20%;
-      animation: balaoLoop 70s linear infinite;
-    }
-
     @keyframes nuvemLoop {
-      from {
-        left: -35%;
-      }
-
       to {
         left: 110%;
       }
     }
 
     @keyframes balaoLoop {
-      0% {
-        left: -20%;
-        transform: translateY(0px);
-      }
-
       25% {
         transform: translateY(-20px);
       }
 
       50% {
-        transform: translateY(0px);
+        transform: translateY(0);
       }
 
       75% {
@@ -189,46 +189,31 @@
 
       100% {
         left: 110%;
-        transform: translateY(0px);
       }
     }
   </style>
 </head>
 
 <body>
-
   <img src="assets/sol.png" class="parallax sol" alt="Sol">
-
   <img src="assets/nuvem1.png" class="parallax nuvem n1" alt="Nuvem">
   <img src="assets/nuvem2.png" class="parallax nuvem n2" alt="Nuvem">
   <img src="assets/nuvem3.png" class="parallax nuvem n3" alt="Nuvem">
   <img src="assets/nuvem1.png" class="parallax nuvem n4" alt="Nuvem">
   <img src="assets/nuvem2.png" class="parallax nuvem n5" alt="Nuvem">
-
   <img src="assets/balao.png" class="parallax balao" alt="Balão">
 
-  <a href="index.html">
-    <button class="voltar">← Voltar</button>
-  </a>
+  <a href="index.html"><button class="voltar">⬅ Voltar</button></a>
 
   <div class="container">
-    <h1>Escolha a dificuldade</h1>
+    <h1>Escolha o Nível</h1>
 
-    <a href="facil.html">
-      <button class="btn facil">Fácil</button>
-    </a>
-
-    <a href="medio.html">
-      <button class="btn medio">Médio</button>
-    </a>
-
-    <a href="dificil.html">
-      <button class="btn dificil">Difícil</button>
-    </a>
+    <a href="facil.html"><button class="btn facil">🌟 Fácil</button></a>
+    <a href="medio.html"><button class="btn medio">⭐⭐ Médio</button></a>
+    <a href="dificil.html"><button class="btn dificil">🏆 Difícil</button></a>
 
     <img src="assets/Pensando.png" class="personagem" alt="Pinochio">
   </div>
-
 </body>
 
 </html>
