@@ -15,7 +15,7 @@ const perguntas_facil = [
         opcoes: [
             { texto: "CACHORRO", imagem: "assets/imagem_pergunta/cachorro.png" },
             { texto: "GATO", imagem: "assets/imagem_pergunta/gato.jpg.jpeg" },
-            { texto: "MARRECO", imagem: "assets/imagem_pergunta/macaco.avif" }
+            { texto: "MARRECO", imagem: "assets/imagem_pergunta/marreco.jpg.jpeg" }
         ],
         certa: 2
     },

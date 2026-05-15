@@ -224,12 +224,12 @@ body {
     font-weight: bold;
     color: #444;
 
-    background-color: white; 
+    background-color: white;
     border: 4px solid #ffd54f;
-    border-radius: 20px; 
-    padding: 15px 25px; 
+    border-radius: 20px;
+    padding: 15px 25px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s; /
+    transition: transform 0.2s;/
 }
 
 
@@ -324,42 +324,44 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding: 60px 80px 50px;
+    justify-content: center;
+    padding: 20px;
     gap: 0;
 }
 
 .question-box {
     background: #DDF4FF;
-    border-radius: 60px;
-    padding: 28px 54px;
+    border-radius: 40px;
+    padding: 15px 40px;
     display: flex;
     align-items: center;
-    gap: 24px;
+    justify-content: center;
+    gap: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18), inset 0 2px 0 rgba(255, 255, 255, 0.7);
-    max-width: 1000px;
-    width: 100%;
+    max-width: 900px;
+    width: 90%;
     border: 4px solid rgba(255, 255, 255, 0.5);
-    margin-bottom: 80px;
-}
-
-.speaker-icon {
-    font-size: 52px;
-    flex-shrink: 0;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+    margin-bottom: 25px;
 }
 
 .question-text {
-    font-size: 52px;
+    font-size: 42px;
     font-weight: 900;
     color: #1a1a1a;
     letter-spacing: -0.5px;
     line-height: 1.1;
 }
 
+.speaker-icon {
+    font-size: 42px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+    cursor: pointer;
+}
+
 .options {
     display: flex;
-    gap: 60px;
+    gap: 40px;
     align-items: flex-end;
     justify-content: center;
     width: 100%;
@@ -369,24 +371,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     cursor: pointer;
 }
 
 .option-card {
-    width: 340px;
-    height: 350px;
-    border-radius: 36px;
+    width: 260px;
+    height: 260px;
+    border-radius: 30px;
     border: none;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
     transition: transform 0.18s cubic-bezier(.34, 1.56, .64, 1), box-shadow 0.18s;
     position: relative;
     background-color: white;
 }
 
 .option-card:hover {
-    transform: translateY(-10px) scale(1.04);
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
 }
 
 .option-card img {
@@ -394,21 +396,23 @@ body {
     height: 100%;
     object-fit: contain;
     display: block;
-    border-radius: 36px;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 15px;
 }
 
 .option-label {
     background: white;
-    border-radius: 50px;
-    padding: 14px 52px;
-    font-size: 40px;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 24px;
     font-weight: 900;
     color: #1a1a1a;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15), inset 0 2px 0 rgba(255, 255, 255, 0.8);
-    letter-spacing: 0.3px;
     border: 3px solid rgba(255, 255, 255, 0.5);
-    white-space: nowrap;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+    width: 260px;
+    white-space: normal;
+    text-align: center;
 }
 
 /*POP UP*/
@@ -429,13 +433,13 @@ body {
 
 .popup-box {
     background: #ffffff;
-    border: 8px solid #ffd54f;
-    border-radius: 40px;
-    padding: 50px;
+    border: 6px solid #ffd54f;
+    border-radius: 35px;
+    padding: 35px 40px;
     text-align: center;
-    max-width: 800px;
+    max-width: 550px;
     width: 90%;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
     animation: popInBox 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
     display: flex;
     flex-direction: column;
@@ -443,18 +447,18 @@ body {
 }
 
 .popup-icone {
-    font-size: 100px;
-    margin-bottom: 20px;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-size: 65px;
+    margin-bottom: 10px;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .popup-titulo {
-    font-size: 45px;
+    font-size: 32px;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: 'Nunito', 'Comic Sans MS', sans-serif;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .popup-pontuacao {
@@ -468,17 +472,17 @@ body {
 .popup-botoes {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
     width: 100%;
 }
 
 .btn-popup {
-    padding: 20px 40px;
-    font-size: 28px;
+    padding: 15px 25px;
+    font-size: 22px;
     font-weight: bold;
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
     cursor: pointer;
     color: white;
     transition: transform 0.2s, box-shadow 0.2s;
