@@ -19,16 +19,20 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      overflow: hidden;
+      position: relative;
     }
 
     .container {
       position: relative;
-      /* 🔥 IMPORTANTE */
       text-align: center;
       background: rgba(138, 134, 134, 0.2);
       backdrop-filter: blur(10px);
       padding: 40px;
       border-radius: 20px;
+
+      z-index: 10;
     }
 
     h1 {
@@ -78,26 +82,130 @@
       color: white;
       cursor: pointer;
       transition: 0.3s;
+
+      z-index: 20;
     }
 
     .voltar:hover {
       background-color: #000000;
     }
 
-    /* 🔥 PERSONAGEM */
     .personagem {
       position: absolute;
       bottom: -10px;
-      /* ajusta altura */
       left: 320px;
-      /* faz ele "sair" do card igual na imagem */
       width: 180px;
       pointer-events: none;
+    }
+
+
+    .parallax {
+      position: absolute;
+      pointer-events: none;
+    }
+
+    .sol {
+      width: 180px;
+      top: 20px;
+      left: 20px;
+      z-index: 2;
+    }
+
+    .nuvem {
+      position: absolute;
+      width: 220px;
+      opacity: 0.95;
+      z-index: 3;
+      left: -35%;
+      animation: nuvemLoop linear infinite;
+    }
+
+    .n1 {
+      top: 40px;
+      animation-duration: 45s;
+      animation-delay: -5s;
+    }
+
+    .n2 {
+      top: 120px;
+      animation-duration: 55s;
+      animation-delay: -18s;
+    }
+
+    .n3 {
+      top: 220px;
+      animation-duration: 60s;
+      animation-delay: -32s;
+    }
+
+    .n4 {
+      top: 70px;
+      animation-duration: 48s;
+      animation-delay: -12s;
+    }
+
+    .n5 {
+      top: 180px;
+      animation-duration: 52s;
+      animation-delay: -26s;
+    }
+
+    .balao {
+      position: absolute;
+      width: 140px;
+      top: 90px;
+      z-index: 3;
+      left: -20%;
+      animation: balaoLoop 70s linear infinite;
+    }
+
+    @keyframes nuvemLoop {
+      from {
+        left: -35%;
+      }
+
+      to {
+        left: 110%;
+      }
+    }
+
+    @keyframes balaoLoop {
+      0% {
+        left: -20%;
+        transform: translateY(0px);
+      }
+
+      25% {
+        transform: translateY(-20px);
+      }
+
+      50% {
+        transform: translateY(0px);
+      }
+
+      75% {
+        transform: translateY(-15px);
+      }
+
+      100% {
+        left: 110%;
+        transform: translateY(0px);
+      }
     }
   </style>
 </head>
 
 <body>
+
+  <img src="assets/sol.png" class="parallax sol" alt="Sol">
+
+  <img src="assets/nuvem1.png" class="parallax nuvem n1" alt="Nuvem">
+  <img src="assets/nuvem2.png" class="parallax nuvem n2" alt="Nuvem">
+  <img src="assets/nuvem3.png" class="parallax nuvem n3" alt="Nuvem">
+  <img src="assets/nuvem1.png" class="parallax nuvem n4" alt="Nuvem">
+  <img src="assets/nuvem2.png" class="parallax nuvem n5" alt="Nuvem">
+
+  <img src="assets/balao.png" class="parallax balao" alt="Balão">
 
   <a href="index.html">
     <button class="voltar">← Voltar</button>
@@ -117,8 +225,8 @@
     <a href="dificil.html">
       <button class="btn dificil">Difícil</button>
     </a>
-    <img src="assets/Pensando.png" class="personagem" alt="Pinochio">
 
+    <img src="assets/Pensando.png" class="personagem" alt="Pinochio">
   </div>
 
 </body>
