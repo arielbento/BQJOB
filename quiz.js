@@ -3,9 +3,9 @@ const perguntas_facil = [
     {
         pergunta: "Qual é o nome da nossa cidade?",
         opcoes: [
-            { texto: "Blumenau", imagem: "" },
-            { texto: "Brusque", imagem: "" },
-            { texto: "Itajaí", imagem: "" }
+            { texto: "BLUMENAU", imagem: "imagens_perguntas/Blumenau" },
+            { texto: "BRUSQUE", imagem: "imagem_pergunta/BRUSQUE.png" },
+            { texto: "ITAJAÍ", imagem: "imagem_pergunta/ITAJAI.jpg.jpeg" }
         ],
         certa: 1
     },
@@ -13,9 +13,9 @@ const perguntas_facil = [
     {
         pergunta: "Qual animal é o símbolo da Fenarreco?",
         opcoes: [
-            { texto: "Cachorro", imagem: "" },
-            { texto: "Gato", imagem: "" },
-            { texto: "Marreco", imagem: "" }
+            { texto: "CACHORRO", imagem: "imagem_pergunta/cachorro.png" },
+            { texto: "GATO", imagem: "imagem_pergunta/gato.jpg.jpeg" },
+            { texto: "MARRECO", imagem: "imagem_pergunta/macaco.avif" }
         ],
         certa: 2
     },
@@ -23,9 +23,9 @@ const perguntas_facil = [
     {
         pergunta: "Quais são as cores da bandeira de Brusque?",
         opcoes: [
-            { texto: "Azul Branco Vermelho", imagem: "" },
-            { texto: "Amarelo Branco Verde", imagem: "" },
-            { texto: "Rosa Roxo Laranja", imagem: "" }
+            { texto: "AZUL, BRANCO E VERMELHO", imagem: "imagem_pergunta/vermelho azul branco.png" },
+            { texto: "AMARELO, BRANCO E VERDE", imagem: "" },
+            { texto: "ROSA, ROXO E LARANJA ", imagem: "imagem_pergunta/rosa roxo laranja.webp" }
         ],
         certa: 1
     },
@@ -33,9 +33,9 @@ const perguntas_facil = [
     {
         pergunta: "Onde podemos ver muitos animais?",
         opcoes: [
-            { texto: "Shopping", imagem: "" },
-            { texto: "Zoobotânico", imagem: "" },
-            { texto: "Praia", imagem: "" }
+            { texto: "SHOPPING", imagem: "imagem_pergunta/shopping.jpg.jpeg" },
+            { texto: "ZOOBOTÂNICO", imagem: "imagem_pergunta/zoo.jpg.jpeg" },
+            { texto: "PRAIA", imagem: "imagem_pergunta/Praia.avif" }
         ],
         certa: 1
     },
@@ -43,9 +43,9 @@ const perguntas_facil = [
     {
         pergunta: "Onde vemos esculturas de pedra?",
         opcoes: [
-            { texto: "Parque das Esculturas", imagem: "" },
-            { texto: "Cinema", imagem: "" },
-            { texto: "Escola", imagem: "" }
+            { texto: "PARQUE DAS ESCULTURAS", imagem: "imagem_pergunta/Parque das Esculturas.jpg" },
+            { texto: "CINEMA", imagem: "imagem_pergunta/cinema.avif" },
+            { texto: "ESCOLA", imagem: "imagem_pergunta/Escola.jpeg" }
         ],
         certa: 0
     }
@@ -55,51 +55,51 @@ const perguntas_facil = [
 const perguntas_medio = [
 
     {
-        pergunta: "Qual é a igreja do centro?",
+        pergunta: "QUAL É A IGREJA DO CENTRO ?",
         opcoes: [
-            { texto: "Igreja da Vovó", imagem: "" },
-            { texto: "Igreja Matriz", imagem: "" },
-            { texto: "Igreja do Papai", imagem: "" }
+            { texto: "IGREJA DA VOVÓ", imagem: "imagem_pergunta/Igreja da Vovó.jpg" },
+            { texto: "IGREJA MATRIZ", imagem: "imagem_pergunta/Igreja Matriz.jpg" },
+            { texto: "IGREJA DO PAPAI", imagem: "imagem_pergunta/Igreja do Papai.jpg" }
         ],
         certa: 1
     },
 
     {
-        pergunta: "Qual é a festa famosa de Brusque?",
+        pergunta: "QUAL É A FESTA FAMOSA DE BRUSQUE ?",
         opcoes: [
-            { texto: "Festa Junina", imagem: "" },
-            { texto: "Carnaval", imagem: "" },
-            { texto: "Fenarreco", imagem: "" }
+            { texto: "FESTA JUNINA", imagem: "imagem_pergunta/Festa Junina.jpg" },
+            { texto: "CARNAVAL", imagem: "imagem_pergunta/Carnaval.jpg" },
+            { texto: "FENARRECO", imagem: "imagem_pergunta/Fenarreco.jpg" }
         ],
         certa: 2
     },
 
     {
-        pergunta: "Qual comida típica é famosa?",
+        pergunta: "QUAL COMIDA TÍPICA É FAMOSA ?",
         opcoes: [
-            { texto: "Pizza", imagem: "" },
-            { texto: "Marreco com Repolho", imagem: "" },
-            { texto: "Hambúrguer", imagem: "" }
+            { texto: "PIZZA", imagem: "imagem_pergunta/Pizza.jpg" },
+            { texto: "MARRECO COM REPOLHO", imagem: "imagem_pergunta/Marreco com Repolho.jpg" },
+            { texto: "HAMBÚRGUER", imagem: "imagem_pergunta/Hamburguer.webp" }
         ],
         certa: 1
     },
 
     {
-        pergunta: "O que as fábricas fazem muito?",
+        pergunta: "O QUE A FÁBRICAS DAQUI FAZEM MUITO ?",
         opcoes: [
-            { texto: "Brinquedos", imagem: "" },
-            { texto: "Roupas", imagem: "" },
-            { texto: "Doces", imagem: "" }
+            { texto: "BRINQUEDOS", imagem: "imagem_pergunta/Brinquedos.jpg" },
+            { texto: "ROUPAS", imagem: "imagem_pergunta/Roupas.jpg" },
+            { texto: "DOCES", imagem: "imagem_pergunta/Doces.jpg" }
         ],
         certa: 1
     },
 
     {
-        pergunta: "Onde as crianças brincam?",
+        pergunta: "ONDE AS CRIANÇAS BRINCAM ?",
         opcoes: [
-            { texto: "Hospital", imagem: "" },
-            { texto: "Praça", imagem: "" },
-            { texto: "Banco", imagem: "" }
+            { texto: "HOSPITAL", imagem: "" },
+            { texto: "PRAÇA", imagem: "imagem_pergunta/Praça.jpeg" },
+            { texto: "BANCO", imagem: "imagem_pergunta/Banco.jpeg" }
         ],
         certa: 1
     }
@@ -109,51 +109,51 @@ const perguntas_medio = [
 const perguntas_dificil = [
 
     {
-        pergunta: "Por que Brusque é Cidade dos Tecidos?",
+        pergunta: "POR QUE BRUSUQE É A CIDADE DOS TECIDOS ?",
         opcoes: [
-            { texto: "Tem rios", imagem: "" },
-            { texto: "Faz roupas", imagem: "" },
-            { texto: "Tem árvores", imagem: "" }
+            { texto: "TEM MUITOS RIOS", imagem: "imagem_pergunta/Rios.jpg" },
+            { texto: "FAZ ROUPAS", imagem: "imagem_pergunta/Roupas.jpg" },
+            { texto: "TEM ÁRVORES", imagem: "imagem_pergunta/Tem árvore.jpg" }
         ],
         certa: 1
     },
 
     {
-        pergunta: "Qual bolo famoso com farofa doce?",
+        pergunta: "QUAL BOLO FAMOSO COM FAROFA DOCE ?",
         opcoes: [
-            { texto: "Cuca", imagem: "" },
-            { texto: "Bolo de Lama", imagem: "" },
-            { texto: "Maçã", imagem: "" }
+            { texto: "CUCA", imagem: "imagem_pergunta/Cuca.jpg" },
+            { texto: "BOLO DE LAMA", imagem: "imagem_pergunta/Bolo de Lama.jpg" },
+            { texto: "MAÇÃ", imagem: "imagem_pergunta/Maçã.jpg" }
         ],
         certa: 0
     },
 
     {
-        pergunta: "Como passeavam antigamente?",
+        pergunta: "COMO PASSEAVAM ANTIGAMENTE ?",
         opcoes: [
-            { texto: "Avião", imagem: "" },
-            { texto: "Carroça", imagem: "c" },
-            { texto: "Foguete", imagem: "" }
+            { texto: "AVIÃO", imagem: "imagem_pergunta/aviao.avif" },
+            { texto: "CARROÇA", imagem: "imagem_pergunta/carroça.avif" },
+            { texto: "FOGUETE", imagem: "imagem_pergunta/foguete.png" }
         ],
         certa: 1
     },
 
     {
-        pergunta: "O que o marreco usa na cabeça?",
+        pergunta: "O QUE O MARRECO USA NA CABEÇA ?",
         opcoes: [
-            { texto: "Capacete", imagem: "" },
-            { texto: "Chapéu", imagem: "" },
-            { texto: "Panela", imagem: "" }
+            { texto: "CAPACETE", imagem: "imagem_pergunta/capacete.png" },
+            { texto: "CHAPÉU", imagem: "imagem_pergunta/chapeu.png" },
+            { texto: "PANELA", imagem: "imagem_pergunta/panela.png" }
         ],
         certa: 1
     },
 
     {
-        pergunta: "Qual animal vemos no zoo?",
+        pergunta: "QUAL ANIMAL VEMOS NO ZOO ?",
         opcoes: [
-            { texto: "Macaco", imagem: "" },
-            { texto: "Tartaruga", imagem: "" },
-            { texto: "Pinguim", imagem: "" }
+            { texto: "MACACO", imagem: "imagem_pergunta/macaco.avif" },
+            { texto: "TARTARUGA", imagem: "imagem_pergunta/tartaruga.jpg.jpeg" },
+            { texto: "PINGUIM", imagem: "imagem_pergunta/pinguim.jpeg" }
         ],
         certa: 0
     }
