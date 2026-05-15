@@ -3,7 +3,7 @@ const perguntas_facil = [
     {
         pergunta: "QUAL É O NOME DA NOSSA CIDADE ?",
         opcoes: [
-            { texto: "BLUMENAU", imagem: "assets/imagens_perguntas/Blumenau" },
+            { texto: "BLUMENAU", imagem: "assets/imagem_pergunta/Blumenau.svg" },
             { texto: "BRUSQUE", imagem: "assets/imagem_pergunta/BRUSQUE.png" },
             { texto: "ITAJAÍ", imagem: "assets/imagem_pergunta/ITAJAI.jpg.jpeg" }
         ],
