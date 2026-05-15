@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>Seleção de Dificuldade</title>
@@ -21,7 +22,8 @@
     }
 
     .container {
-      position: relative; /* 🔥 IMPORTANTE */
+      position: relative;
+      /* 🔥 IMPORTANTE */
       text-align: center;
       background: rgba(138, 134, 134, 0.2);
       backdrop-filter: blur(10px);
@@ -85,31 +87,40 @@
     /* 🔥 PERSONAGEM */
     .personagem {
       position: absolute;
-      bottom: -10px; /* ajusta altura */
-      left: 320px;   /* faz ele "sair" do card igual na imagem */
+      bottom: -10px;
+      /* ajusta altura */
+      left: 320px;
+      /* faz ele "sair" do card igual na imagem */
       width: 180px;
       pointer-events: none;
     }
-
   </style>
 </head>
 
 <body>
 
   <a href="index.html">
-  <button class="voltar">← Voltar</button>
+    <button class="voltar">← Voltar</button>
   </a>
-  
+
   <div class="container">
     <h1>Escolha a dificuldade</h1>
-    
-    <button class="btn facil">Fácil</button>
-    <button class="btn medio">Médio</button>
-    <button class="btn dificil">Difícil</button>
-    
+
+    <a href="facil.html">
+      <button class="btn facil">Fácil</button>
+    </a>
+
+    <a href="medio.html">
+      <button class="btn medio">Médio</button>
+    </a>
+
+    <a href="dificil.html">
+      <button class="btn dificil">Difícil</button>
+    </a>
     <img src="Pensando.png" class="personagem" alt="Pinochio">
 
   </div>
 
 </body>
+
 </html>
