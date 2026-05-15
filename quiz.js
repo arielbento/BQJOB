@@ -24,7 +24,7 @@ const perguntas_facil = [
         pergunta: "QUAIS SÃO AS CORES DA BANDEIRA DE BRUSQUE ?",
         opcoes: [
             { texto: "AZUL, BRANCO E VERMELHO", imagem: "assets/imagem_pergunta/vermelho azul branco.png" },
-            { texto: "AMARELO, BRANCO E VERDE", imagem: "" },
+            { texto: "AMARELO, BRANCO E VERDE", imagem: "assets/imagem_pergunta/AMARELO, BRANCO E VERDE.png" },
             { texto: "ROSA, ROXO E LARANJA ", imagem: "assets/imagem_pergunta/rosa roxo laranja.webp" }
         ],
         certa: 1
@@ -97,7 +97,7 @@ const perguntas_medio = [
     {
         pergunta: "ONDE AS CRIANÇAS BRINCAM ?",
         opcoes: [
-            { texto: "HOSPITAL", imagem: "" },
+            { texto: "HOSPITAL", imagem: "assets/imagem_pergunta/Hospital.png" },
             { texto: "PRAÇA", imagem: "assets/imagem_pergunta/Praça.jpeg" },
             { texto: "BANCO", imagem: "assets/imagem_pergunta/Banco.jpeg" }
         ],
