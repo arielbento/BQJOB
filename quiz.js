@@ -237,31 +237,26 @@ function mostrar() {
 
 
 function finalizar() {
-    // Calcula a porcentagem de acertos
     let porcentagem = (pontos / lista.length) * 100;
-    
+
     let mensagem = "";
     let icone = "";
     let corTexto = "";
 
-    // APENAS 2 CONDIÇÕES:
     if (porcentagem >= 50) {
-        // Acertou 50% ou mais
         mensagem = "PARABÉNS! VOCÊ FOI INCRÍVEL!";
         icone = "🏆✨";
         corTexto = "#4CAF50"; // Verde
     } else {
-        // Acertou menos de 50%
+
         mensagem = "BOM ESFORÇO! VAMOS TENTAR DE NOVO?";
         icone = "🦦💪"; // Mascote dando força
         corTexto = "#F44336"; // Vermelho
     }
 
-    // Cria o fundo escuro do Pop-up (Overlay)
     let overlay = document.createElement("div");
     overlay.className = "popup-overlay";
 
-    // Cria a caixinha branca do Pop-up
     let popupBox = document.createElement("div");
     popupBox.className = "popup-box";
 
@@ -269,8 +264,7 @@ function finalizar() {
     popupBox.innerHTML = `
         <div class="popup-icone">${icone}</div>
         <h1 style="color: ${corTexto};" class="popup-titulo">${mensagem}</h1>
-        <p class="popup-pontuacao">VOCÊ ACERTOU ${pontos} DE ${lista.length} PERGUNTAS!</p>
-        
+
         <div class="popup-botoes">
             <button class="btn-popup btn-jogar-novamente" onclick="window.location.reload()">
                 🔄 JOGAR DE NOVO
