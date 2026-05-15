@@ -3,9 +3,9 @@ const perguntas_facil = [
     {
         pergunta: "QUAL É O NOME DA NOSSA CIDADE ?",
         opcoes: [
-            { texto: "BLUMENAU", imagem: "imagens_perguntas/Blumenau" },
-            { texto: "BRUSQUE", imagem: "imagem_pergunta/BRUSQUE.png" },
-            { texto: "ITAJAÍ", imagem: "imagem_pergunta/ITAJAI.jpg.jpeg" }
+            { texto: "BLUMENAU", imagem: "assets/imagens_perguntas/Blumenau" },
+            { texto: "BRUSQUE", imagem: "assets/imagem_pergunta/BRUSQUE.png" },
+            { texto: "ITAJAÍ", imagem: "assets/imagem_pergunta/ITAJAI.jpg.jpeg" }
         ],
         certa: 1
     },
@@ -13,9 +13,9 @@ const perguntas_facil = [
     {
         pergunta: "QUAL ANIMAL É O SÍMBOLO DA FENARRECO ?",
         opcoes: [
-            { texto: "CACHORRO", imagem: "imagem_pergunta/cachorro.png" },
-            { texto: "GATO", imagem: "imagem_pergunta/gato.jpg.jpeg" },
-            { texto: "MARRECO", imagem: "imagem_pergunta/macaco.avif" }
+            { texto: "CACHORRO", imagem: "assets/imagem_pergunta/cachorro.png" },
+            { texto: "GATO", imagem: "assets/imagem_pergunta/gato.jpg.jpeg" },
+            { texto: "MARRECO", imagem: "assets/imagem_pergunta/macaco.avif" }
         ],
         certa: 2
     },
@@ -23,9 +23,9 @@ const perguntas_facil = [
     {
         pergunta: "QUAIS SÃO AS CORES DA BANDEIRA DE BRUSQUE ?",
         opcoes: [
-            { texto: "AZUL, BRANCO E VERMELHO", imagem: "imagem_pergunta/vermelho azul branco.png" },
+            { texto: "AZUL, BRANCO E VERMELHO", imagem: "assets/imagem_pergunta/vermelho azul branco.png" },
             { texto: "AMARELO, BRANCO E VERDE", imagem: "" },
-            { texto: "ROSA, ROXO E LARANJA ", imagem: "imagem_pergunta/rosa roxo laranja.webp" }
+            { texto: "ROSA, ROXO E LARANJA ", imagem: "assets/imagem_pergunta/rosa roxo laranja.webp" }
         ],
         certa: 1
     },
@@ -33,9 +33,9 @@ const perguntas_facil = [
     {
         pergunta: "ONDE PODEMOS VER MUITOS ANIMAIS ?",
         opcoes: [
-            { texto: "SHOPPING", imagem: "imagem_pergunta/shopping.jpg.jpeg" },
-            { texto: "ZOOBOTÂNICO", imagem: "imagem_pergunta/zoo.jpg.jpeg" },
-            { texto: "PRAIA", imagem: "imagem_pergunta/Praia.avif" }
+            { texto: "SHOPPING", imagem: "assets/imagem_pergunta/shopping.jpg.jpeg" },
+            { texto: "ZOOBOTÂNICO", imagem: "assets/imagem_pergunta/zoo.jpg.jpeg" },
+            { texto: "PRAIA", imagem: "assets/imagem_pergunta/Praia.avif" }
         ],
         certa: 1
     },
@@ -43,9 +43,9 @@ const perguntas_facil = [
     {
         pergunta: "ONDE VEMOS ESCULTURAS DE PEDRA ?",
         opcoes: [
-            { texto: "PARQUE DAS ESCULTURAS", imagem: "imagem_pergunta/Parque das Esculturas.jpg" },
-            { texto: "CINEMA", imagem: "imagem_pergunta/cinema.avif" },
-            { texto: "ESCOLA", imagem: "imagem_pergunta/Escola.jpeg" }
+            { texto: "PARQUE DAS ESCULTURAS", imagem: "assets/imagem_pergunta/Parque das Esculturas.jpg" },
+            { texto: "CINEMA", imagem: "assets/imagem_pergunta/cinema.avif" },
+            { texto: "ESCOLA", imagem: "assets/imagem_pergunta/Escola.jpeg" }
         ],
         certa: 0
     }
@@ -57,9 +57,9 @@ const perguntas_medio = [
     {
         pergunta: "QUAL É A IGREJA DO CENTRO ?",
         opcoes: [
-            { texto: "IGREJA DA VOVÓ", imagem: "imagem_pergunta/Igreja da Vovó.jpg" },
-            { texto: "IGREJA MATRIZ", imagem: "imagem_pergunta/Igreja Matriz.jpg" },
-            { texto: "IGREJA DO PAPAI", imagem: "imagem_pergunta/Igreja do Papai.jpg" }
+            { texto: "IGREJA DA VOVÓ", imagem: "assets/imagem_pergunta/Igreja da Vovó.jpg" },
+            { texto: "IGREJA MATRIZ", imagem: "assets/imagem_pergunta/Igreja Matriz.jpg" },
+            { texto: "IGREJA DO PAPAI", imagem: "assets/imagem_pergunta/Igreja do Papai.jpg" }
         ],
         certa: 1
     },
@@ -67,9 +67,9 @@ const perguntas_medio = [
     {
         pergunta: "QUAL É A FESTA FAMOSA DE BRUSQUE ?",
         opcoes: [
-            { texto: "FESTA JUNINA", imagem: "imagem_pergunta/Festa Junina.jpg" },
-            { texto: "CARNAVAL", imagem: "imagem_pergunta/Carnaval.jpg" },
-            { texto: "FENARRECO", imagem: "imagem_pergunta/Fenarreco.jpg" }
+            { texto: "FESTA JUNINA", imagem: "assets/imagem_pergunta/Festa Junina.jpg" },
+            { texto: "CARNAVAL", imagem: "assets/imagem_pergunta/Carnaval.jpg" },
+            { texto: "FENARRECO", imagem: "assets/imagem_pergunta/Fenarreco.jpg" }
         ],
         certa: 2
     },
@@ -77,9 +77,9 @@ const perguntas_medio = [
     {
         pergunta: "QUAL COMIDA TÍPICA É FAMOSA ?",
         opcoes: [
-            { texto: "PIZZA", imagem: "imagem_pergunta/Pizza.jpg" },
-            { texto: "MARRECO COM REPOLHO", imagem: "imagem_pergunta/Marreco com Repolho.jpg" },
-            { texto: "HAMBÚRGUER", imagem: "imagem_pergunta/Hamburguer.webp" }
+            { texto: "PIZZA", imagem: "assets/imagem_pergunta/Pizza.jpg" },
+            { texto: "MARRECO COM REPOLHO", imagem: "assets/imagem_pergunta/Marreco com Repolho.jpg" },
+            { texto: "HAMBÚRGUER", imagem: "assets/imagem_pergunta/Hamburguer.webp" }
         ],
         certa: 1
     },
@@ -87,9 +87,9 @@ const perguntas_medio = [
     {
         pergunta: "O QUE A FÁBRICAS DAQUI FAZEM MUITO ?",
         opcoes: [
-            { texto: "BRINQUEDOS", imagem: "imagem_pergunta/Brinquedos.jpg" },
-            { texto: "ROUPAS", imagem: "imagem_pergunta/Roupas.jpg" },
-            { texto: "DOCES", imagem: "imagem_pergunta/Doces.jpg" }
+            { texto: "BRINQUEDOS", imagem: "assets/imagem_pergunta/Brinquedos.jpg" },
+            { texto: "ROUPAS", imagem: "assets/imagem_pergunta/Roupas.jpg" },
+            { texto: "DOCES", imagem: "assets/imagem_pergunta/Doces.jpg" }
         ],
         certa: 1
     },
@@ -98,8 +98,8 @@ const perguntas_medio = [
         pergunta: "ONDE AS CRIANÇAS BRINCAM ?",
         opcoes: [
             { texto: "HOSPITAL", imagem: "" },
-            { texto: "PRAÇA", imagem: "imagem_pergunta/Praça.jpeg" },
-            { texto: "BANCO", imagem: "imagem_pergunta/Banco.jpeg" }
+            { texto: "PRAÇA", imagem: "assets/imagem_pergunta/Praça.jpeg" },
+            { texto: "BANCO", imagem: "assets/imagem_pergunta/Banco.jpeg" }
         ],
         certa: 1
     }
@@ -111,9 +111,9 @@ const perguntas_dificil = [
     {
         pergunta: "POR QUE BRUSUQE É A CIDADE DOS TECIDOS ?",
         opcoes: [
-            { texto: "TEM MUITOS RIOS", imagem: "imagem_pergunta/Rios.jpg" },
-            { texto: "FAZ ROUPAS", imagem: "imagem_pergunta/Roupas.jpg" },
-            { texto: "TEM ÁRVORES", imagem: "imagem_pergunta/Tem árvore.jpg" }
+            { texto: "TEM MUITOS RIOS", imagem: "assets/imagem_pergunta/Rios.jpg" },
+            { texto: "FAZ ROUPAS", imagem: "assets/imagem_pergunta/Roupas.jpg" },
+            { texto: "TEM ÁRVORES", imagem: "assets/imagem_pergunta/Tem árvore.jpg" }
         ],
         certa: 1
     },
@@ -121,9 +121,9 @@ const perguntas_dificil = [
     {
         pergunta: "QUAL BOLO FAMOSO COM FAROFA DOCE ?",
         opcoes: [
-            { texto: "CUCA", imagem: "imagem_pergunta/Cuca.jpg" },
-            { texto: "BOLO DE LAMA", imagem: "imagem_pergunta/Bolo de Lama.jpg" },
-            { texto: "MAÇÃ", imagem: "imagem_pergunta/Maçã.jpg" }
+            { texto: "CUCA", imagem: "assets/imagem_pergunta/Cuca.jpg" },
+            { texto: "BOLO DE LAMA", imagem: "assets/imagem_pergunta/Bolo de Lama.jpg" },
+            { texto: "MAÇÃ", imagem: "assets/imagem_pergunta/Maçã.jpg" }
         ],
         certa: 0
     },
@@ -131,9 +131,9 @@ const perguntas_dificil = [
     {
         pergunta: "COMO PASSEAVAM ANTIGAMENTE ?",
         opcoes: [
-            { texto: "AVIÃO", imagem: "imagem_pergunta/aviao.avif" },
-            { texto: "CARROÇA", imagem: "imagem_pergunta/carroça.avif" },
-            { texto: "FOGUETE", imagem: "imagem_pergunta/foguete.png" }
+            { texto: "AVIÃO", imagem: "assets/imagem_pergunta/aviao.avif" },
+            { texto: "CARROÇA", imagem: "assets/imagem_pergunta/carroça.avif" },
+            { texto: "FOGUETE", imagem: "assets/imagem_pergunta/foguete.png" }
         ],
         certa: 1
     },
@@ -141,9 +141,9 @@ const perguntas_dificil = [
     {
         pergunta: "O QUE O MARRECO USA NA CABEÇA ?",
         opcoes: [
-            { texto: "CAPACETE", imagem: "imagem_pergunta/capacete.png" },
-            { texto: "CHAPÉU", imagem: "imagem_pergunta/chapeu.png" },
-            { texto: "PANELA", imagem: "imagem_pergunta/panela.png" }
+            { texto: "CAPACETE", imagem: "assets/imagem_pergunta/capacete.png" },
+            { texto: "CHAPÉU", imagem: "assets/imagem_pergunta/chapeu.png" },
+            { texto: "PANELA", imagem: "assets/imagem_pergunta/panela.png" }
         ],
         certa: 1
     },
@@ -151,9 +151,9 @@ const perguntas_dificil = [
     {
         pergunta: "QUAL ANIMAL VEMOS NO ZOO ?",
         opcoes: [
-            { texto: "MACACO", imagem: "imagem_pergunta/macaco.avif" },
-            { texto: "TARTARUGA", imagem: "imagem_pergunta/tartaruga.jpg.jpeg" },
-            { texto: "PINGUIM", imagem: "imagem_pergunta/pinguim.jpeg" }
+            { texto: "MACACO", imagem: "assets/imagem_pergunta/macaco.avif" },
+            { texto: "TARTARUGA", imagem: "assets/imagem_pergunta/tartaruga.jpg.jpeg" },
+            { texto: "PINGUIM", imagem: "assets/imagem_pergunta/pinguim.jpeg" }
         ],
         certa: 0
     }
@@ -237,20 +237,53 @@ function mostrar() {
 
 
 function finalizar() {
+    // Calcula a porcentagem de acertos
+    let porcentagem = (pontos / lista.length) * 100;
+    
+    let mensagem = "";
+    let icone = "";
+    let corTexto = "";
 
-    let porcentagem =
-        (pontos / lista.length) * 100;
-
-    if (porcentagem >= 90) {
-
-        window.location.href = "90acerto.html";
-
+    // APENAS 2 CONDIÇÕES:
+    if (porcentagem >= 50) {
+        // Acertou 50% ou mais
+        mensagem = "PARABÉNS! VOCÊ FOI INCRÍVEL!";
+        icone = "🏆✨";
+        corTexto = "#4CAF50"; // Verde
     } else {
-
-        window.location.href = "50acerto.html";
-
+        // Acertou menos de 50%
+        mensagem = "BOM ESFORÇO! VAMOS TENTAR DE NOVO?";
+        icone = "🦦💪"; // Mascote dando força
+        corTexto = "#F44336"; // Vermelho
     }
 
+    // Cria o fundo escuro do Pop-up (Overlay)
+    let overlay = document.createElement("div");
+    overlay.className = "popup-overlay";
+
+    // Cria a caixinha branca do Pop-up
+    let popupBox = document.createElement("div");
+    popupBox.className = "popup-box";
+
+    // Preenche o Pop-up com HTML
+    popupBox.innerHTML = `
+        <div class="popup-icone">${icone}</div>
+        <h1 style="color: ${corTexto};" class="popup-titulo">${mensagem}</h1>
+        <p class="popup-pontuacao">VOCÊ ACERTOU ${pontos} DE ${lista.length} PERGUNTAS!</p>
+        
+        <div class="popup-botoes">
+            <button class="btn-popup btn-jogar-novamente" onclick="window.location.reload()">
+                🔄 JOGAR DE NOVO
+            </button>
+            <button class="btn-popup btn-trocar-nivel" onclick="window.location.href='Tela dificuldade.html'">
+                🎚️ TROCAR NÍVEL
+            </button>
+        </div>
+    `;
+
+    // Adiciona o Pop-up na tela
+    overlay.appendChild(popupBox);
+    document.body.appendChild(overlay);
 }
 
 window.onload = iniciar;

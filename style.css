@@ -418,6 +418,121 @@ body {
     white-space: nowrap;
 }
 
+/*POP UP*/
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+    animation: fadeInPopup 0.3s ease-out;
+}
+
+.popup-box {
+    background: #ffffff;
+    border: 8px solid #ffd54f;
+    border-radius: 40px;
+    padding: 50px;
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    animation: popInBox 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-icone {
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.popup-titulo {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Nunito', 'Comic Sans MS', sans-serif;
+    line-height: 1.1;
+}
+
+.popup-pontuacao {
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: 'Nunito', 'Comic Sans MS', sans-serif;
+}
+
+.popup-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btn-popup {
+    padding: 20px 40px;
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-family: 'Nunito', 'Comic Sans MS', sans-serif;
+}
+
+.btn-popup:active {
+    transform: translateY(6px);
+}
+
+.btn-popup-jogar {
+    background: #3ab5f5;
+    box-shadow: 0 8px 0 #208bc6;
+}
+
+.btn-popup-jogar:active {
+    box-shadow: 0 0px 0 #208bc6;
+}
+
+.btn-popup-trocar {
+    background: #ff9800;
+    box-shadow: 0 8px 0 #db8200;
+}
+
+.btn-popup-trocar:active {
+    box-shadow: 0 0px 0 #db8200;
+}
+
+/* Animações exclusivas do Pop-up */
+@keyframes fadeInPopup {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes popInBox {
+    from {
+        opacity: 0;
+        transform: scale(0.5) translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/*POP UP*/
+
 /*RESPONSIVO*/
 @media(max-width:700px) {
 
